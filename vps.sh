@@ -2,7 +2,6 @@
 # ubuntu >= 18.04
 
 v2rayPluginVersion=1.3.0
-ubuntuCode=bionic
 portDev=eth0
 
 apt update
@@ -47,6 +46,7 @@ echo '{
 echo "restart shadowsocks-libev..."
 systemctl restart shadowsocks-libev
 
+ubuntuCode=`lsb_release -c -s`
 echo "install nginx..."
 echo 'deb http://nginx.org/packages/ubuntu/ '$ubuntuCode' nginx
 deb-src http://nginx.org/packages/ubuntu/ '$ubuntuCode' nginx' > /etc/apt/sources.list.d/nginx.list
