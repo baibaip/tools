@@ -2,6 +2,7 @@
 ! See https://adblockplus.org/en/filter-cheatsheet
 
 ||github.com
+||githubusercontent.com
 ||wireguard.com
 ||cmder.net
 ||pacificrack.com
