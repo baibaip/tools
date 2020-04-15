@@ -3,6 +3,7 @@
 
 ||github.com
 ||githubusercontent.com
+||githubassets.com
 ||wireguard.com
 ||cmder.net
 ||pacificrack.com
