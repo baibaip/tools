@@ -8,3 +8,4 @@
 ||wireguard.com
 ||cmder.net
 ||pacificrack.com
+||pypi.org
