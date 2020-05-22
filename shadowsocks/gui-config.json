@@ -9,20 +9,9 @@
       "plugin": "v2ray-plugin_windows_amd64",
       "plugin_opts": "",
       "plugin_args": "",
-      "remarks": "hk_dog",
+      "remarks": "hk",
       "timeout": 5
-    },
-    {
-      "server": "103.118.204.227",
-      "server_port": 32682,
-      "password": "123456@B",
-      "method": "aes-256-gcm",
-      "plugin": "v2ray-plugin_windows_amd64",
-      "plugin_opts": "",
-      "plugin_args": "",
-      "remarks": "hk_imidc",
-      "timeout": 5
-    },
+    }
     {
       "server": "112.17.39.162",
       "server_port": 4027,
