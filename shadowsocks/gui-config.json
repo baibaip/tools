@@ -3,24 +3,13 @@
   "configs": [
     {
       "server": "45.82.79.71",
-      "server_port": 32682,
+      "server_port": 33682,
       "password": "123456@B",
       "method": "aes-256-gcm",
       "plugin": "v2ray-plugin_windows_amd64",
       "plugin_opts": "",
       "plugin_args": "",
       "remarks": "hk",
-      "timeout": 5
-    }
-    {
-      "server": "112.17.39.162",
-      "server_port": 4027,
-      "password": "1AyrbS00zsCz",
-      "method": "aes-256-cfb",
-      "plugin": "",
-      "plugin_opts": "",
-      "plugin_args": "",
-      "remarks": "vpdn",
       "timeout": 5
     },
     {
@@ -42,7 +31,18 @@
       "plugin": "v2ray-plugin_windows_amd64",
       "plugin_opts": "",
       "plugin_args": "",
-      "remarks": "us",
+      "remarks": "us_pr",
+      "timeout": 5
+    },
+    {
+      "server": "155.235.2.237",
+      "server_port": 32682,
+      "password": "123456@B",
+      "method": "aes-256-gcm",
+      "plugin": "v2ray-plugin_windows_amd64",
+      "plugin_opts": "",
+      "plugin_args": "",
+      "remarks": "us_hostyun",
       "timeout": 5
     }
   ],
