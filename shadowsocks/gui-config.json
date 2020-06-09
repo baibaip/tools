@@ -25,7 +25,7 @@
     },
     {
       "server": "107.150.11.139",
-      "server_port": 32682,
+      "server_port": 33682,
       "password": "123456@B",
       "method": "aes-256-gcm",
       "plugin": "v2ray-plugin_windows_amd64",
