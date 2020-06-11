@@ -34,7 +34,7 @@ tar zxf v2ray-plugin-linux-amd64-v$v2rayPluginVersion.tar.gz
 mv v2ray-plugin_linux_amd64 /usr/bin/v2ray-plugin
 echo '{
     "server":"0.0.0.0",
-    "server_port":32682,
+    "server_port":33682,
     "password":"123456@B",
     "nameserver":"8.8.8.8",
     "timeout":60,
@@ -56,26 +56,26 @@ apt install -y nginx
 echo "start nginx..."
 service nginx start
 
-echo "install wireguard..."
-add-apt-repository ppa:wireguard/wireguard
-apt update
-apt install wireguard
-cd /etc/wireguard/
-wg genkey | tee server_privatekey | wg pubkey > server_publickey
-pKey=`cat server_privatekey`
-echo '[Interface]
-PrivateKey = '$pKey'
-Address = 192.168.120.1/24
-PostUp   = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -A FORWARD -o wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o '$portDev' -j MASQUERADE
-PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -D FORWARD -o wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o '$portDev' -j MASQUERADE
-ListenPort = 50814
-DNS = 8.8.8.8
-MTU = 1420
-
-[Peer]
-PublicKey = 
-AllowedIPs = 192.168.120.2/32' > wg0.conf
-echo "up wg0..."
-wg-quick up wg0
-echo "set autostart..."
-systemctl enable wg-quick@wg0
+#echo "install wireguard..."
+#add-apt-repository ppa:wireguard/wireguard
+#apt update
+#apt install wireguard
+#cd /etc/wireguard/
+#wg genkey | tee server_privatekey | wg pubkey > server_publickey
+#pKey=`cat server_privatekey`
+#echo '[Interface]
+#PrivateKey = '$pKey'
+#Address = 192.168.120.1/24
+#PostUp   = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -A FORWARD -o wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o '$portDev' -j MASQUERADE
+#PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -D FORWARD -o wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o '$portDev' -j MASQUERADE
+#ListenPort = 50814
+#DNS = 8.8.8.8
+#MTU = 1420
+#
+#[Peer]
+#PublicKey = 
+#AllowedIPs = 192.168.120.2/32' > wg0.conf
+#echo "up wg0..."
+#wg-quick up wg0
+#echo "set autostart..."
+#systemctl enable wg-quick@wg0
