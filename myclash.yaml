@@ -33,8 +33,8 @@ external-controller: 127.0.0.1:9090
 # secret: ""
 
 # 实验性功能
-experimental:
-  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为true
+# experimental:
+  # ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为true
   # interface-name: en0 # 出站接口名称
 
 # 本地 SOCKS5/HTTP(S) 服务器认证
@@ -53,16 +53,17 @@ dns:
   enable: true # set true to enable dns (default is false)
   ipv6: false # default is false
   listen: 0.0.0.0:53
-  default-nameserver: # resolve dns nameserver host, should fill pure IP
-    - 114.114.114.114
-    - 8.8.8.8
+  # default-nameserver: # resolve dns nameserver host, should fill pure IP
+  #   - 114.114.114.114
+  #   - 8.8.8.8
   # enhanced-mode: redir-host # or fake-ip
   # # fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
   # fake-ip-filter: # fake ip white domain list
   #   - '*.lan'
   #   - localhost.ptlogin2.qq.com
   nameserver:
-    - 114.114.114.114
+  #   - 114.114.114.114
+    - 8.8.8.8
     - tls://dns.rubyfish.cn:853 # dns over tls
     - https://1.1.1.1/dns-query # dns over https
   # fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
