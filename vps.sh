@@ -1,7 +1,7 @@
 #!/bin/bash
 # ubuntu >= 18.04
 
-v2rayPluginVersion=1.3.0
+v2rayPluginVersion=1.3.1
 portDev=eth0
 
 apt update
