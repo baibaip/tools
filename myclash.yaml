@@ -66,12 +66,20 @@ dns:
     - 8.8.8.8
     - tls://dns.rubyfish.cn:853 # dns over tls
     - https://1.1.1.1/dns-query # dns over https
-  # fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
+  # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
+  fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
+    - 1.1.1.1
+    - tls://dns.google
   #   - tcp://1.1.1.1
   # fallback-filter:
   #   geoip: true # default
   #   ipcidr: # ips in these subnets will be considered polluted
   #     - 240.0.0.0/4
+
+# clash DNS 请求逻辑：
+# (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
+# (2) clash 将选取 name server 列表内，解析最快的结果。
+# (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
 
 proxies:
 # 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
@@ -239,6 +247,7 @@ proxy-groups:
     - "ss-v2ray-us2"
     - "v2ray-ibm"
     - "trojan-hk"
+
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
   type: select
