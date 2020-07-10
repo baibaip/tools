@@ -1,5 +1,5 @@
 {
-  "version": "4.1.9.2",
+  "version": "4.1.10.0",
   "configs": [
     {
       "server": "45.82.79.71",
@@ -10,6 +10,17 @@
       "plugin_opts": "",
       "plugin_args": "",
       "remarks": "hk",
+      "timeout": 5
+    },
+    {
+      "server": "47.241.15.82",
+      "server_port": 33682,
+      "password": "123456@B",
+      "method": "aes-256-gcm",
+      "plugin": "v2ray-plugin_windows_amd64",
+      "plugin_opts": "",
+      "plugin_args": "",
+      "remarks": "sg",
       "timeout": 5
     },
     {
@@ -32,6 +43,17 @@
       "plugin_opts": "",
       "plugin_args": "",
       "remarks": "us_hostyun",
+      "timeout": 5
+    },
+    {
+      "server": "173.82.243.175",
+      "server_port": 33682,
+      "password": "123456@B",
+      "method": "aes-256-gcm",
+      "plugin": "v2ray-plugin_windows_amd64",
+      "plugin_opts": "",
+      "plugin_args": "",
+      "remarks": "us_cc",
       "timeout": 5
     }
   ],
@@ -63,9 +85,9 @@
   },
   "proxy": {
     "useProxy": false,
-    "proxyType": 1,
-    "proxyServer": "0.0.0.0",
-    "proxyPort": 1080,
+    "proxyType": 0,
+    "proxyServer": "",
+    "proxyPort": 0,
     "proxyTimeout": 3,
     "useAuth": false,
     "authUser": "",
