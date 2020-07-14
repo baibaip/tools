@@ -1,0 +1,484 @@
+{
+    "configs": [
+        {
+            "method": "aes-256-gcm",
+            "obfs": "plain",
+            "obfsParam": "",
+            "password": "123456@B",
+            "plugin": "v2ray-plugin_windows_amd64",
+            "pluginParam": "",
+            "protocol": "origin",
+            "protocolParam": "",
+            "remarks": "sg",
+            "reuse_session": true,
+            "server": "47.241.15.82",
+            "server_port": 33682,
+            "session_ticket": false,
+            "sni": "",
+            "tcp_fast_open": false,
+            "trojanGoSettings": {
+                "mux": {
+                    "enable": false,
+                    "mux_concurrency": 8,
+                    "mux_idle_timeout": 60
+                },
+                "shadowsocks": {
+                    "enable": false,
+                    "method": "aes-128-gcm",
+                    "password": ""
+                },
+                "transport_plugin": {
+                    "arg": [
+                    ],
+                    "command": "",
+                    "enable": false,
+                    "env": [
+                    ],
+                    "option": "",
+                    "type": "plaintext"
+                },
+                "websocket": {
+                    "enable": false,
+                    "hostname": "",
+                    "path": ""
+                }
+            },
+            "type": "ss",
+            "uuid": "",
+            "verify_certificate": true,
+            "vmessSettings": {
+                "http": {
+                    "host": [
+                    ],
+                    "path": ""
+                },
+                "kcp": {
+                    "congestion": false,
+                    "downlinkCapacity": 20,
+                    "header": {
+                        "type": ""
+                    },
+                    "mtu": 1460,
+                    "readBufferSize": 1,
+                    "seed": "",
+                    "tti": 20,
+                    "uplinkCapacity": 5,
+                    "writeBufferSize": 1
+                },
+                "mux": {
+                    "enable": false,
+                    "mux_concurrency": 8
+                },
+                "network": "tcp",
+                "quic": {
+                    "header": {
+                        "type": ""
+                    },
+                    "key": "",
+                    "security": ""
+                },
+                "tcp": {
+                    "header": {
+                        "request": "{\n    \"version\": \"1.1\",\n    \"method\": \"GET\",\n    \"path\": [],\n    \"headers\": {}\n}",
+                        "response": "{\n    \"version\": \"1.1\",\n    \"status\": \"200\",\n    \"reason\": \"OK\",\n    \"headers\": {}\n}",
+                        "type": "none"
+                    }
+                },
+                "tls": {
+                    "allowInsecure": false,
+                    "allowInsecureCiphers": false,
+                    "enable": false
+                },
+                "ws": {
+                    "header": {
+                    },
+                    "path": ""
+                }
+            }
+        },
+        {
+            "method": "aes-256-gcm",
+            "obfs": "plain",
+            "obfsParam": "",
+            "password": "123456@B",
+            "plugin": "v2ray-plugin_windows_amd64",
+            "pluginParam": "",
+            "protocol": "origin",
+            "protocolParam": "",
+            "remarks": "us_pr",
+            "reuse_session": true,
+            "server": "107.150.11.139",
+            "server_port": 33682,
+            "session_ticket": false,
+            "sni": "",
+            "tcp_fast_open": false,
+            "trojanGoSettings": {
+                "mux": {
+                    "enable": false,
+                    "mux_concurrency": 8,
+                    "mux_idle_timeout": 60
+                },
+                "shadowsocks": {
+                    "enable": false,
+                    "method": "aes-128-gcm",
+                    "password": ""
+                },
+                "transport_plugin": {
+                    "arg": [
+                    ],
+                    "command": "",
+                    "enable": false,
+                    "env": [
+                    ],
+                    "option": "",
+                    "type": "plaintext"
+                },
+                "websocket": {
+                    "enable": false,
+                    "hostname": "",
+                    "path": ""
+                }
+            },
+            "type": "ss",
+            "uuid": "",
+            "verify_certificate": true,
+            "vmessSettings": {
+                "http": {
+                    "host": [
+                    ],
+                    "path": ""
+                },
+                "kcp": {
+                    "congestion": false,
+                    "downlinkCapacity": 20,
+                    "header": {
+                        "type": ""
+                    },
+                    "mtu": 1460,
+                    "readBufferSize": 1,
+                    "seed": "",
+                    "tti": 20,
+                    "uplinkCapacity": 5,
+                    "writeBufferSize": 1
+                },
+                "mux": {
+                    "enable": false,
+                    "mux_concurrency": 8
+                },
+                "network": "tcp",
+                "quic": {
+                    "header": {
+                        "type": ""
+                    },
+                    "key": "",
+                    "security": ""
+                },
+                "tcp": {
+                    "header": {
+                        "request": "{\n    \"version\": \"1.1\",\n    \"method\": \"GET\",\n    \"path\": [],\n    \"headers\": {}\n}",
+                        "response": "{\n    \"version\": \"1.1\",\n    \"status\": \"200\",\n    \"reason\": \"OK\",\n    \"headers\": {}\n}",
+                        "type": "none"
+                    }
+                },
+                "tls": {
+                    "allowInsecure": false,
+                    "allowInsecureCiphers": false,
+                    "enable": false
+                },
+                "ws": {
+                    "header": {
+                    },
+                    "path": ""
+                }
+            }
+        },
+        {
+            "method": "aes-256-gcm",
+            "obfs": "plain",
+            "obfsParam": "",
+            "password": "123456@B",
+            "plugin": "v2ray-plugin_windows_amd64",
+            "pluginParam": "",
+            "protocol": "origin",
+            "protocolParam": "",
+            "remarks": "us_hostyun",
+            "reuse_session": true,
+            "server": "155.235.2.237",
+            "server_port": 32682,
+            "session_ticket": false,
+            "sni": "",
+            "tcp_fast_open": false,
+            "trojanGoSettings": {
+                "mux": {
+                    "enable": false,
+                    "mux_concurrency": 8,
+                    "mux_idle_timeout": 60
+                },
+                "shadowsocks": {
+                    "enable": false,
+                    "method": "aes-128-gcm",
+                    "password": ""
+                },
+                "transport_plugin": {
+                    "arg": [
+                    ],
+                    "command": "",
+                    "enable": false,
+                    "env": [
+                    ],
+                    "option": "",
+                    "type": "plaintext"
+                },
+                "websocket": {
+                    "enable": false,
+                    "hostname": "",
+                    "path": ""
+                }
+            },
+            "type": "ss",
+            "uuid": "",
+            "verify_certificate": true,
+            "vmessSettings": {
+                "http": {
+                    "host": [
+                    ],
+                    "path": ""
+                },
+                "kcp": {
+                    "congestion": false,
+                    "downlinkCapacity": 20,
+                    "header": {
+                        "type": ""
+                    },
+                    "mtu": 1460,
+                    "readBufferSize": 1,
+                    "seed": "",
+                    "tti": 20,
+                    "uplinkCapacity": 5,
+                    "writeBufferSize": 1
+                },
+                "mux": {
+                    "enable": false,
+                    "mux_concurrency": 8
+                },
+                "network": "tcp",
+                "quic": {
+                    "header": {
+                        "type": ""
+                    },
+                    "key": "",
+                    "security": ""
+                },
+                "tcp": {
+                    "header": {
+                        "request": "{\n    \"version\": \"1.1\",\n    \"method\": \"GET\",\n    \"path\": [],\n    \"headers\": {}\n}",
+                        "response": "{\n    \"version\": \"1.1\",\n    \"status\": \"200\",\n    \"reason\": \"OK\",\n    \"headers\": {}\n}",
+                        "type": "none"
+                    }
+                },
+                "tls": {
+                    "allowInsecure": false,
+                    "allowInsecureCiphers": false,
+                    "enable": false
+                },
+                "ws": {
+                    "header": {
+                    },
+                    "path": ""
+                }
+            }
+        },
+        {
+            "method": "aes-256-gcm",
+            "obfs": "plain",
+            "obfsParam": "",
+            "password": "123456@B",
+            "plugin": "v2ray-plugin_windows_amd64",
+            "pluginParam": "",
+            "protocol": "origin",
+            "protocolParam": "",
+            "remarks": "us_cc",
+            "reuse_session": true,
+            "server": "173.82.243.175",
+            "server_port": 33682,
+            "session_ticket": false,
+            "sni": "",
+            "tcp_fast_open": false,
+            "trojanGoSettings": {
+                "mux": {
+                    "enable": false,
+                    "mux_concurrency": 8,
+                    "mux_idle_timeout": 60
+                },
+                "shadowsocks": {
+                    "enable": false,
+                    "method": "aes-128-gcm",
+                    "password": ""
+                },
+                "transport_plugin": {
+                    "arg": [
+                    ],
+                    "command": "",
+                    "enable": false,
+                    "env": [
+                    ],
+                    "option": "",
+                    "type": "plaintext"
+                },
+                "websocket": {
+                    "enable": false,
+                    "hostname": "",
+                    "path": ""
+                }
+            },
+            "type": "ss",
+            "uuid": "",
+            "verify_certificate": true,
+            "vmessSettings": {
+                "http": {
+                    "host": [
+                    ],
+                    "path": ""
+                },
+                "kcp": {
+                    "congestion": false,
+                    "downlinkCapacity": 20,
+                    "header": {
+                        "type": ""
+                    },
+                    "mtu": 1460,
+                    "readBufferSize": 1,
+                    "seed": "",
+                    "tti": 20,
+                    "uplinkCapacity": 5,
+                    "writeBufferSize": 1
+                },
+                "mux": {
+                    "enable": false,
+                    "mux_concurrency": 8
+                },
+                "network": "tcp",
+                "quic": {
+                    "header": {
+                        "type": ""
+                    },
+                    "key": "",
+                    "security": ""
+                },
+                "tcp": {
+                    "header": {
+                        "request": "{\n    \"version\": \"1.1\",\n    \"method\": \"GET\",\n    \"path\": [],\n    \"headers\": {}\n}",
+                        "response": "{\n    \"version\": \"1.1\",\n    \"status\": \"200\",\n    \"reason\": \"OK\",\n    \"headers\": {}\n}",
+                        "type": "none"
+                    }
+                },
+                "tls": {
+                    "allowInsecure": false,
+                    "allowInsecureCiphers": false,
+                    "enable": false
+                },
+                "ws": {
+                    "header": {
+                    },
+                    "path": ""
+                }
+            }
+        },
+        {
+            "method": "aes-256-cfb",
+            "obfs": "plain",
+            "obfsParam": "",
+            "password": "123456@B",
+            "plugin": "",
+            "pluginParam": "",
+            "protocol": "origin",
+            "protocolParam": "",
+            "remarks": "hk",
+            "reuse_session": true,
+            "server": "papabai.online",
+            "server_port": 443,
+            "session_ticket": false,
+            "sni": "",
+            "tcp_fast_open": false,
+            "trojanGoSettings": {
+                "mux": {
+                    "enable": false,
+                    "mux_concurrency": 8,
+                    "mux_idle_timeout": 60
+                },
+                "shadowsocks": {
+                    "enable": false,
+                    "method": "aes-128-gcm",
+                    "password": ""
+                },
+                "transport_plugin": {
+                    "arg": [
+                    ],
+                    "command": "",
+                    "enable": false,
+                    "env": [
+                    ],
+                    "option": "",
+                    "type": "plaintext"
+                },
+                "websocket": {
+                    "enable": false,
+                    "hostname": "",
+                    "path": ""
+                }
+            },
+            "type": "trojan",
+            "uuid": "",
+            "verify_certificate": true,
+            "vmessSettings": {
+                "http": {
+                    "host": [
+                    ],
+                    "path": ""
+                },
+                "kcp": {
+                    "congestion": false,
+                    "downlinkCapacity": 20,
+                    "header": {
+                        "type": ""
+                    },
+                    "mtu": 1460,
+                    "readBufferSize": 1,
+                    "seed": "",
+                    "tti": 20,
+                    "uplinkCapacity": 5,
+                    "writeBufferSize": 1
+                },
+                "mux": {
+                    "enable": false,
+                    "mux_concurrency": 8
+                },
+                "network": "tcp",
+                "quic": {
+                    "header": {
+                        "type": ""
+                    },
+                    "key": "",
+                    "security": ""
+                },
+                "tcp": {
+                    "header": {
+                        "request": "{\n    \"version\": \"1.1\",\n    \"method\": \"GET\",\n    \"path\": [],\n    \"headers\": {}\n}",
+                        "response": "{\n    \"version\": \"1.1\",\n    \"status\": \"200\",\n    \"reason\": \"OK\",\n    \"headers\": {}\n}",
+                        "type": "none"
+                    }
+                },
+                "tls": {
+                    "allowInsecure": false,
+                    "allowInsecureCiphers": false,
+                    "enable": false
+                },
+                "ws": {
+                    "header": {
+                    },
+                    "path": ""
+                }
+            }
+        }
+    ]
+}
