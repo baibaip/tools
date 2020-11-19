@@ -41,7 +41,6 @@ proxy-groups:
   name: 节点选择
   type: select
   proxies:
-    - '香港'
     - '香港qq'
     - DIRECT
 
