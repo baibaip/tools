@@ -48,6 +48,8 @@ proxy-groups:
     - '香港qq'
     - '日本dog'
     - '日本hostyun'
+    - '日本hostyun联通nat'
+    - '日本hostyun电信nat'
     - DIRECT
 
 
