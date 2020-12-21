@@ -37,11 +37,9 @@ proxies:
   - {"name":"香港qq","type":"ss","server":"124.156.159.106","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"香港qexw","type":"ss","server":"45.154.197.184","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"香港qexw广移nat","type":"ss","server":"120.241.154.4","port":47939,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
+  - {"name":"香港qexw电信nat","type":"ss","server":"61.164.109.101","port":17003,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"hkt","type":"ss","server":"42.200.69.155","port":64913,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"hkt电信nat","type":"ss","server":"61.164.109.101","port":17004,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"日本hostyun_sb","type":"ss","server":"45.14.64.61","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"日本hostyun_sb联通nat","type":"ss","server":"101.69.128.101","port":17003,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"日本hostyun_sb电信nat","type":"ss","server":"61.164.109.101","port":17003,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
 
 proxy-groups:
 -
@@ -51,11 +49,9 @@ proxy-groups:
     - '香港qq'
     - '香港qexw'
     - '香港qexw广移nat'
+    - '香港qexw电信nat'
     - 'hkt'
     - 'hkt电信nat'
-    - '日本hostyun_sb'
-    - '日本hostyun_sb联通nat'
-    - '日本hostyun_sb电信nat'
     - DIRECT
 
 
