@@ -53,6 +53,7 @@ proxy-groups:
     - '香港qexw广移nat'
     - '香港qexw电信nat'
     - 'hkt'
+    - 'hkt联通nat'
     - 'hkt电信nat'
     - DIRECT
 
