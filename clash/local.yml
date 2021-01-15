@@ -41,6 +41,7 @@ proxies:
   - {"name":"hkt电信nat","type":"ss","server":"61.164.109.101","port":17004,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"gcp","type":"ss","server":"34.96.132.63","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"gcp广移nat","type":"ss","server":"120.241.154.4","port":47939,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
+  - {"name":"iplc","server":"121.12.172.56","port":11106,"type":"ssr","cipher":"aes-128-cfb","password":"g98Kyz","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"147:oaoH9W","obfs-param":"b71a3147.microsoft.com"}
 
 proxy-groups:
 -
@@ -54,6 +55,7 @@ proxy-groups:
     - 'hkt电信nat'
     - 'gcp'
     - 'gcp广移nat'
+    - 'iplc'
     - DIRECT
 
 
