@@ -32,8 +32,8 @@ proxies:
   - {"name":"HKiplc","server":"121.12.172.56","port":11106,"type":"ssr","cipher":"aes-128-cfb","password":"g98Kyz","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"147:oaoH9W","obfs-param":"b71a3147.microsoft.com"}
   - {"name":"HKaga","server":"aga.cctop.vip","port":41569,"type":"ssr","cipher":"aes-128-cfb","password":"g98Kyz","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","protocol-param":"147:oaoH9W","obfs-param":"b71a3147.microsoft.com"}
   - {"name":"HKTyear","type":"vmess","server":"hkt1.iggimgcdn.com","port":53881,"uuid":"144a6d29-6295-4b66-ac98-a4eb03e7332f","alterId":2,"cipher":"none","tls":true,"udp":true} 
-  - {"name":"JPyear1","type":"vmess","server":"gz2jp.cache.goto25000.com","port":19661,"uuid":"144a6d29-6295-4b66-ac98-a4eb03e7332f","alterId":2,"cipher":"auto","udp":true} 
-  - {"name":"JPyear2","type":"vmess","server":"shcn2jp.iggimgcdn.com","port":50443,"uuid":"144a6d29-6295-4b66-ac98-a4eb03e7332f","alterId":2,"cipher":"auto","udp":true} 
+  - {"name":"GZ2JPyear1","type":"vmess","server":"gz2jp.cache.goto25000.com","port":19661,"uuid":"144a6d29-6295-4b66-ac98-a4eb03e7332f","alterId":2,"cipher":"auto","udp":true} 
+  - {"name":"SH2JPyear2","type":"vmess","server":"shcn2jp.iggimgcdn.com","port":50443,"uuid":"144a6d29-6295-4b66-ac98-a4eb03e7332f","alterId":2,"cipher":"auto","udp":true} 
 
 proxy-groups:
 -
@@ -48,8 +48,8 @@ proxy-groups:
     - 'HKiplc'
     - 'HKaga'
     - 'HKTyear'
-    - 'JPyear1'
-    - 'JPyear2'
+    - 'GZ2JPyear1'
+    - 'SH2JPyear2'
     - DIRECT
 
 rules:
