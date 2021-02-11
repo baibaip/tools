@@ -24,18 +24,18 @@ mode: Rule
 log-level: info
 
 proxies:
-  - {"name":"qq","type":"ss","server":"124.156.159.106","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"qexw","type":"ss","server":"45.154.197.184","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"qexw2","type":"ss","server":"202.61.128.9","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
+  - {"name":"qq_hk","type":"ss","server":"124.156.159.106","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
+  - {"name":"qexw_uk","type":"ss","server":"45.154.197.184","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
+  - {"name":"qexw_sg","type":"ss","server":"202.61.128.9","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
 
 proxy-groups:
 -
   name: 节点选择
   type: select
   proxies:
-    - 'qq'
-    - 'qexw'
-    - 'qexw2'
+    - 'qq_hk'
+    - 'qexw_uk'
+    - 'qexw_sg'
     - DIRECT
 
 rules:
