@@ -29,6 +29,7 @@ proxies:
   - {"name":"qexw_sg","type":"ss","server":"202.61.128.9","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"jp","type":"ss","server":"45.117.103.153","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"jp_nat","type":"ss","server":"153.99.182.11","port":21213,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
+  - {"name":"jp_nat2","type":"ss","server":"153.99.182.11","port":21214,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
 
 proxy-groups:
 -
@@ -40,6 +41,7 @@ proxy-groups:
     - 'qexw_sg'
     - 'jp'
     - 'jp_nat'
+    - 'jp_nat2'
     - DIRECT
 
 rules:
