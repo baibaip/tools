@@ -22,16 +22,12 @@ proxies:
   - {"name":"qexw","type":"ss","server":"45.154.197.184","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"qexw_hkt","type":"ss","server":"45.154.197.184","port":48688,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"qexw_lyg_nat","type":"ss","server":"153.99.182.11","port":21215,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"qexw_gz_nat","type":"ss","server":"183.232.228.69","port":21655,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"qexw_hkt_lyg_nat","type":"ss","server":"153.99.182.11","port":21216,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"qexw_hkt_gz_nat","type":"ss","server":"183.232.228.69","port":21656,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"qexw4","type":"ss","server":"202.61.128.9","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"jp","type":"ss","server":"45.117.103.153","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"jp_lyg_nat","type":"ss","server":"153.99.182.11","port":21213,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"jp_gz_nat","type":"ss","server":"183.232.228.69","port":21653,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"hkt","type":"ss","server":"42.200.69.215","port":48688,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"hkt_lyg_nat","type":"ss","server":"153.99.182.11","port":21214,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"hkt_gz_nat","type":"ss","server":"183.232.228.69","port":21654,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
 
 proxy-groups:
 -
@@ -42,16 +38,12 @@ proxy-groups:
     - 'qexw'
     - 'qexw_hkt'
     - 'qexw_lyg_nat'
-    - 'qexw_gz_nat'
     - 'qexw_hkt_lyg_nat'
-    - 'qexw_hkt_gz_nat'
     - 'qexw4'
     - 'jp'
     - 'jp_lyg_nat'
-    - 'jp_gz_nat'
     - 'hkt'
     - 'hkt_lyg_nat'
-    - 'hkt_gz_nat'
     - DIRECT
 
 rules:
