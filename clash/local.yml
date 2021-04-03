@@ -27,7 +27,6 @@ proxies:
   - {"name":"jp","type":"ss","server":"45.117.103.153","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   # - {"name":"jp_lyg_nat","type":"ss","server":"153.99.182.11","port":21213,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"jp2","type":"ss","server":"45.14.64.240","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"jp3","type":"ss","server":"45.76.207.25","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   # - {"name":"hkt","type":"ss","server":"42.200.69.215","port":48688,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   # - {"name":"hkt_lyg_nat","type":"ss","server":"153.99.182.11","port":21214,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
 
@@ -45,7 +44,6 @@ proxy-groups:
     - 'jp'
     # - 'jp_lyg_nat'
     - 'jp2'
-    - 'jp3'
     # - 'hkt'
     # - 'hkt_lyg_nat'
     - DIRECT
