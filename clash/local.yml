@@ -24,9 +24,8 @@ proxies:
   # - {"name":"hk_lyg_nat","type":"ss","server":"153.99.182.11","port":21215,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   # - {"name":"hk_hkt_lyg_nat","type":"ss","server":"153.99.182.11","port":21216,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"us","type":"ss","server":"154.23.244.14","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"jp","type":"ss","server":"45.117.103.153","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
+  - {"name":"jp","type":"ss","server":"45.14.64.240","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   # - {"name":"jp_lyg_nat","type":"ss","server":"153.99.182.11","port":21213,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"jp2","type":"ss","server":"45.14.64.240","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   # - {"name":"hkt","type":"ss","server":"42.200.69.215","port":48688,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   # - {"name":"hkt_lyg_nat","type":"ss","server":"153.99.182.11","port":21214,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
 
@@ -43,7 +42,6 @@ proxy-groups:
     - 'us'
     - 'jp'
     # - 'jp_lyg_nat'
-    - 'jp2'
     # - 'hkt'
     # - 'hkt_lyg_nat'
     - DIRECT
