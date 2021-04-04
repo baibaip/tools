@@ -1025,6 +1025,9 @@ rules:
 - DOMAIN-SUFFIX,zhuihd.com,DIRECT
 - DOMAIN,download.jetbrains.com,DIRECT
 
+# baip's rule
+- DOMAIN-SUFFIX,hostyun.com,DIRECT
+
 # Local Area Network
 - DOMAIN-SUFFIX,local,DIRECT
 - IP-CIDR,192.168.0.0/16,DIRECT
