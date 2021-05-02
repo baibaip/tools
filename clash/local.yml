@@ -1019,6 +1019,7 @@ rules:
 
 # baip's rule
 - DOMAIN-SUFFIX,hostyun.com,DIRECT
+- DOMAIN-SUFFIX,kurun.com,DIRECT
 
 # Local Area Network
 - DOMAIN-SUFFIX,local,DIRECT
