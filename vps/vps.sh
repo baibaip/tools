@@ -7,8 +7,8 @@ portDev=eth0
 apt update
 #echo "install lrzsz..."
 #apt install -y lrzsz
-echo "install vim..."
-apt install -y vim
+#echo "install vim..."
+#apt install -y vim
 
 echo "open bbr..."
 echo "net.core.default_qdisc = fq" >> /etc/sysctl.conf
@@ -46,15 +46,15 @@ echo '{
 echo "restart shadowsocks-libev..."
 systemctl restart shadowsocks-libev
 
-ubuntuCode=`lsb_release -c -s`
-echo "install nginx..."
-echo 'deb http://nginx.org/packages/ubuntu/ '$ubuntuCode' nginx
-deb-src http://nginx.org/packages/ubuntu/ '$ubuntuCode' nginx' > /etc/apt/sources.list.d/nginx.list
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ABF5BD827BD9BF62
-apt update
-apt install -y nginx
-echo "start nginx..."
-service nginx start
+#ubuntuCode=`lsb_release -c -s`
+#echo "install nginx..."
+#echo 'deb [arch=amd64] http://nginx.org/packages/ubuntu/ '$ubuntuCode' nginx
+#deb-src http://nginx.org/packages/ubuntu/ '$ubuntuCode' nginx' > /etc/apt/sources.list.d/nginx.list
+#apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ABF5BD827BD9BF62
+#apt update
+#apt install -y nginx
+#echo "start nginx..."
+#service nginx start
 
 #echo "install wireguard..."
 #add-apt-repository ppa:wireguard/wireguard
