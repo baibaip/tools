@@ -1026,6 +1026,11 @@ rules:
 # baip's rule
 - DOMAIN-SUFFIX,hostyun.com,DIRECT
 - DOMAIN-SUFFIX,kurun.com,DIRECT
+- DOMAIN-SUFFIX,live.net,DIRECT
+- DOMAIN-SUFFIX,live.com,DIRECT
+- DOMAIN-SUFFIX,msn.com,DIRECT
+- DOMAIN-SUFFIX,windows.net,DIRECT
+- DOMAIN-SUFFIX,onedrive.com,DIRECT
 
 # Local Area Network
 - DOMAIN-SUFFIX,local,DIRECT
