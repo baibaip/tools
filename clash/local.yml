@@ -19,7 +19,7 @@ log-level: info
 
 proxies:
   - {"name":"qq","type":"ss","server":"124.156.159.106","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
-  - {"name":"hk","type":"ss","server":"45.154.197.184","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
+  - {"name":"hk","type":"ss","server":"103.207.68.139","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"nat_hk","type":"ss","server":"zj3c.nat.2.coalcloud.xyz","port":43063,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"hk_cmi","type":"ss","server":"150.129.218.108","port":33682,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
   - {"name":"nat_hk_cmi","type":"ss","server":"zj3c.nat.2.coalcloud.xyz","port":43066,"cipher":"aes-256-gcm","password":"123456@B","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"","mux":true}}
