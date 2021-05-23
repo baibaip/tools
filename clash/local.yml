@@ -1031,6 +1031,7 @@ rules:
 - DOMAIN-SUFFIX,msn.com,DIRECT
 - DOMAIN-SUFFIX,windows.net,DIRECT
 - DOMAIN-SUFFIX,onedrive.com,DIRECT
+- DOMAIN-SUFFIX,nfmovies.com,DIRECT
 
 # Local Area Network
 - DOMAIN-SUFFIX,local,DIRECT
