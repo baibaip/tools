@@ -2,7 +2,7 @@
 # ubuntu >= 18.04
 
 v2rayPluginVersion=1.3.1
-portDev=eth0
+# portDev=eth0
 
 apt update
 #echo "install lrzsz..."
@@ -13,11 +13,11 @@ apt update
 echo "open bbr..."
 echo "net.core.default_qdisc = fq" >> /etc/sysctl.conf
 echo "net.ipv4.tcp_congestion_control = bbr" >> /etc/sysctl.conf
-echo "open tcp fastopen..."
-echo "net.ipv4.tcp_fastopen = 3" >> /etc/sysctl.conf
-echo "open ip_forward..."
-echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
-echo "sysctl apply"
+# echo "open tcp fastopen..."
+# echo "net.ipv4.tcp_fastopen = 3" >> /etc/sysctl.conf
+# echo "open ip_forward..."
+# echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
+# echo "sysctl apply"
 sysctl -p
 
 echo "change ssh port to 22392"
